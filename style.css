@@ -1,0 +1,57 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vw;
+    background-color: black;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* TITLE */
+.title {
+    font-size: 3rem;
+}
+
+/* AUDIO */
+.audio {
+    margin-top: 2rem;
+}
+
+.audioTitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#audioList {
+    margin-top: 2rem;
+}
+
+.audioSetting {
+    font-size: 1.5rem;
+}
+
+.audioSettingLabel {
+    display: block;
+}
+
+.audioSettingButton {
+    padding: 5px 20px;
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.audioSettingButtonOn, .audioSettingButton:active {
+    background-color: white;
+    color: dodgerblue;
+}
